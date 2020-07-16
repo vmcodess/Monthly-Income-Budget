@@ -1,0 +1,35 @@
+* {
+    padding: 0px;
+    margin: 0;
+}
+
+body {
+    padding-left: 40px;
+    padding-top: 40px;
+}
+
+h1 {
+    font-weight: lighter;
+    margin-bottom: 40px;
+}
+
+h3 {
+    font-weight: lighter;
+    margin-bottom: 10px;
+}
+
+#income-container {
+    border: 2px solid black;
+    border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    width: 35%;
+    background-size: contain;
+    padding: 10px;
+}
+
+#income-number {
+    padding: 4px;
+    width: 95%;
+    border-radius: 5px;
+}
