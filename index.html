@@ -8,12 +8,38 @@
     </head>
     <body>
         <h1>BUDGET YOUR MONTHLY INCOME</h1>
-
         <div id="income-container">
             <h3>Please Enter Your Monthly Income</h3>
-            <input type="text" id="income-number">
+            <input type="text" id="income-number" placeholder="$"> <br><br>
+            <button onclick="calculateBudget()">Calculate</button>
+        </div> 
 
+        <div id="grid-container">
+            <div id="container1">
+                <br><br>
+                <div id="percent-container">
+                    <h3>Needs</h3>
+                    <input type="text" id="needs" placeholder="50%"> <br><br>
+        
+                    <h3>Wants</h3>
+                    <input type="text" id="wants" placeholder="20%"> <br><br>
+        
+                    <h3>Savings</h3>
+                    <input type="text" id="savings" placeholder="30%">
+                </div>
+                <br><br>
+                <div id="dollar-amount">
+                    <h3>Needs: $<span id="needsTotal"></span></h3>
+                    <h3>Wants: $<span id="wantsTotal"></span></h3>
+                    <h3>Savings: $<span id="savingsTotal"></span></h3>
+                </div>
+            </div>
+            <div id="container2">
+
+            </div>
         </div>
+
+
         <script src="script.js"></script>
     </body>
 </html>

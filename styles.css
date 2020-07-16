@@ -18,18 +18,49 @@ h3 {
     margin-bottom: 10px;
 }
 
+#grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
 #income-container {
-    border: 2px solid black;
+    border: 1px solid black;
     border-radius: 5px;
     display: inline-block;
     position: relative;
     width: 35%;
     background-size: contain;
     padding: 10px;
+    
 }
 
 #income-number {
     padding: 4px;
     width: 95%;
+    /* border-radius: 5px; */
+}
+
+#percent-container {
+    border: 1px solid black;
     border-radius: 5px;
+    display: inline-block;
+    position: relative;
+    width: 50%;
+    background-size: contain;
+    padding: 10px;
+}
+
+#needs {
+    padding: 4px;
+    width: 95%;
+}
+
+#wants {
+    padding: 4px;
+    width: 95%;
+}
+
+#savings {
+    padding: 4px;
+    width: 95%;
 }
